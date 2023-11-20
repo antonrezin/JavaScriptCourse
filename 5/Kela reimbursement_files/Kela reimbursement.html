@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- saved from url=(0094)https://vw4.viope.com/content/9b67da7ed75bf67ca4b0d6d7632af92297383fc6/07.06DoctorVisitEx.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Kela reimbursement</title>
+<style type="text/css">
+label {
+	display: block;
+	width: 10em;
+	float: left;
+}
+</style>
+
+<script src="DoctorVisit.js">
+</script>
+</head>
+<body>
+	<h3>Kela reimbursement</h3>
+
+	<form>
+		<p>
+			<label>Length of the visit: </label> <input type="text" name="length" id="length" size="3"> min
+		</p>
+		<p>
+			<label>Doctor’s Fee </label> <input type="text" name="doctorsFee" id="doctorsFee" size="8"> euros
+		</p>
+		<p>
+			<input type="button" id="submit" value="Calculate" onclick="calculate()">
+		</p>
+	</form>
+
+	<!-- This is the target where the JavaScript will write the answer -->
+	<div id="answer"></div>
+
+
+
+
+</body></html>
